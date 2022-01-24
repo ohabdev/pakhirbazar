@@ -29,10 +29,10 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 70px;
     display: flex;
     align-items: center;
-    background-color: #1976d2;
+    background-color: #efefef;
     color: white;
     font-weight: 600;
   }
@@ -166,11 +166,11 @@
 
   .terminal {
     position: relative;
-    width: 80%;
+    width: 1000%;
     max-width: 600px;
-    border-radius: 6px;
+    border-radius: 4px;
     padding-top: 45px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     overflow: hidden;
     background-color: rgb(15, 15, 16);
   }
@@ -290,3 +290,50 @@
       visibility: hidden;
     }
   }
+
+  /* Toolbar CSS */
+  .getInTouch{
+    margin-right: 25px;
+    background-color: #189d32;
+    border: none;
+    font-size:13px;
+  }
+
+  /* Modal CSS */
+
+  .modal-bg{
+    max-width: 600px;
+  }
+  .tabmenu{
+    background: #191919;
+    /* color: #456d8c; */
+  }
+  .pills-tab{
+    /* background: #191919; */
+    color: #456d8c;
+  }
+  .nav-pills .nav-link.active{
+    background-color: #202020;
+  }
+  .nav-link{
+      color: #8c8c8c;
+  }
+  .modal-body{
+    border: 5px solid #6d6d6d;
+    padding: 0;
+    background-color: #000000;
+  }
+  .modal-content{
+    border-radius: 0;
+  }
+.modal-dialog {
+    max-width: 600px;
+}
+.container-bg{
+    margin-top: -40px;
+    margin-left: -16px;
+}
+.modal-content{
+    top: 40px;
+    left: 3px;
+}
